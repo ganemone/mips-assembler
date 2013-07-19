@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ABEB3DC1732E3D0006E3672 /* Assembler.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3ABEB3DB1732E3D0006E3672 /* Assembler.1 */; };
+		3ABEB3E61732E488006E3672 /* binToDec.c in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEB3E21732E488006E3672 /* binToDec.c */; };
+		3ABEB3E71732E488006E3672 /* deassembleMIPS.c in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEB3E31732E488006E3672 /* deassembleMIPS.c */; };
+		3ABEB3E81732E488006E3672 /* verifyMIPSInstruction.c in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEB3E51732E488006E3672 /* verifyMIPSInstruction.c */; };
+		3ABEB3EA1732E4A5006E3672 /* getToken.c in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEB3E91732E4A5006E3672 /* getToken.c */; };
+		3ABEB3ED1732E4F8006E3672 /* pass1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEB3EC1732E4F8006E3672 /* pass1.c */; };
+		3ABEB3EF1732E526006E3672 /* tester.c in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEB3EE1732E526006E3672 /* tester.c */; };
+		3ABEB3F21732E54C006E3672 /* LabelTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 3ABEB3F01732E54C006E3672 /* LabelTable.c */; };
+		3AD949EB173949CB002BD2F5 /* pass2.c in Sources */ = {isa = PBXBuildFile; fileRef = 3AD949EA173949CB002BD2F5 /* pass2.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3ABEB3D31732E3D0006E3672 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3ABEB3DC1732E3D0006E3672 /* Assembler.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A09200517407B65005A1311 /* pass2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pass2.h; sourceTree = "<group>"; };
+		3ABEB3D51732E3D0006E3672 /* Assembler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assembler; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABEB3DB1732E3D0006E3672 /* Assembler.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Assembler.1; sourceTree = "<group>"; };
+		3ABEB3E21732E488006E3672 /* binToDec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = binToDec.c; sourceTree = "<group>"; };
+		3ABEB3E31732E488006E3672 /* deassembleMIPS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deassembleMIPS.c; sourceTree = "<group>"; };
+		3ABEB3E41732E488006E3672 /* deassembleMIPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deassembleMIPS.h; sourceTree = "<group>"; };
+		3ABEB3E51732E488006E3672 /* verifyMIPSInstruction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = verifyMIPSInstruction.c; sourceTree = "<group>"; };
+		3ABEB3E91732E4A5006E3672 /* getToken.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getToken.c; sourceTree = "<group>"; };
+		3ABEB3EB1732E4C8006E3672 /* getToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getToken.h; sourceTree = "<group>"; };
+		3ABEB3EC1732E4F8006E3672 /* pass1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pass1.c; sourceTree = "<group>"; };
+		3ABEB3EE1732E526006E3672 /* tester.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tester.c; sourceTree = "<group>"; };
+		3ABEB3F01732E54C006E3672 /* LabelTable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LabelTable.c; sourceTree = "<group>"; };
+		3ABEB3F11732E54C006E3672 /* LabelTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelTable.h; sourceTree = "<group>"; };
+		3AD949EA173949CB002BD2F5 /* pass2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pass2.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ABEB3D21732E3D0006E3672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ABEB3CA1732E3D0006E3672 = {
+			isa = PBXGroup;
+			children = (
+				3ABEB3D81732E3D0006E3672 /* Assembler */,
+				3ABEB3D61732E3D0006E3672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ABEB3D61732E3D0006E3672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ABEB3D51732E3D0006E3672 /* Assembler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ABEB3D81732E3D0006E3672 /* Assembler */ = {
+			isa = PBXGroup;
+			children = (
+				3ABEB3F01732E54C006E3672 /* LabelTable.c */,
+				3ABEB3F11732E54C006E3672 /* LabelTable.h */,
+				3ABEB3E21732E488006E3672 /* binToDec.c */,
+				3ABEB3E31732E488006E3672 /* deassembleMIPS.c */,
+				3ABEB3E41732E488006E3672 /* deassembleMIPS.h */,
+				3ABEB3E51732E488006E3672 /* verifyMIPSInstruction.c */,
+				3ABEB3E91732E4A5006E3672 /* getToken.c */,
+				3ABEB3EB1732E4C8006E3672 /* getToken.h */,
+				3A09200517407B65005A1311 /* pass2.h */,
+				3ABEB3EC1732E4F8006E3672 /* pass1.c */,
+				3AD949EA173949CB002BD2F5 /* pass2.c */,
+				3ABEB3EE1732E526006E3672 /* tester.c */,
+				3ABEB3DB1732E3D0006E3672 /* Assembler.1 */,
+			);
+			path = Assembler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ABEB3D41732E3D0006E3672 /* Assembler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ABEB3DF1732E3D0006E3672 /* Build configuration list for PBXNativeTarget "Assembler" */;
+			buildPhases = (
+				3ABEB3D11732E3D0006E3672 /* Sources */,
+				3ABEB3D21732E3D0006E3672 /* Frameworks */,
+				3ABEB3D31732E3D0006E3672 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assembler;
+			productName = Assembler;
+			productReference = 3ABEB3D51732E3D0006E3672 /* Assembler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ABEB3CC1732E3D0006E3672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Giancarlo Anemone";
+			};
+			buildConfigurationList = 3ABEB3CF1732E3D0006E3672 /* Build configuration list for PBXProject "Assembler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3ABEB3CA1732E3D0006E3672;
+			productRefGroup = 3ABEB3D61732E3D0006E3672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ABEB3D41732E3D0006E3672 /* Assembler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ABEB3D11732E3D0006E3672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABEB3E61732E488006E3672 /* binToDec.c in Sources */,
+				3ABEB3E71732E488006E3672 /* deassembleMIPS.c in Sources */,
+				3ABEB3E81732E488006E3672 /* verifyMIPSInstruction.c in Sources */,
+				3ABEB3EA1732E4A5006E3672 /* getToken.c in Sources */,
+				3ABEB3ED1732E4F8006E3672 /* pass1.c in Sources */,
+				3ABEB3EF1732E526006E3672 /* tester.c in Sources */,
+				3ABEB3F21732E54C006E3672 /* LabelTable.c in Sources */,
+				3AD949EB173949CB002BD2F5 /* pass2.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3ABEB3DD1732E3D0006E3672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3ABEB3DE1732E3D0006E3672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3ABEB3E01732E3D0006E3672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3ABEB3E11732E3D0006E3672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ABEB3CF1732E3D0006E3672 /* Build configuration list for PBXProject "Assembler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABEB3DD1732E3D0006E3672 /* Debug */,
+				3ABEB3DE1732E3D0006E3672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ABEB3DF1732E3D0006E3672 /* Build configuration list for PBXNativeTarget "Assembler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABEB3E01732E3D0006E3672 /* Debug */,
+				3ABEB3E11732E3D0006E3672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ABEB3CC1732E3D0006E3672 /* Project object */;
+}

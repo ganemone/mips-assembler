@@ -1,0 +1,27 @@
+main:	add $s0, $s1, $s2
+	addu $s0, $s1, $s2
+	sub $s0, $s1, $s2
+	subu $s0, $s1, $s2
+	addi $s0, $s1, 100
+	addiu $s0, $s1, 100
+	and $s0, $s1, $s2
+	or $s0, $s1, $s2
+	nor $s0, $s1, $s2
+	andi $s0, $s1, 100
+	ori $s0, $s1, 100
+	sll $s0, $s1, 10
+	sll $s0, $s1, 10
+	srl $s0, $s1, 10
+	lw $s0, 100($s1)
+	sw $s0, 100($s1)
+	lui $s0, 100
+	beq $s0, $s1, 100
+	bne $s0, $s1, 100
+	slt $s0, $s1, $s3
+	sltu $s0, $s1, $s3
+	slti $s0, $s1, 100
+	sltiu $s0, $s1, 100
+	j main
+	jr $ra
+	jal main
+
