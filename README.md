@@ -7,7 +7,8 @@ Example
 =======
 
 An example input file would be as follows
-'''
+
+
 main:        lw $a0, 0($t0)                       
 begin:       addi $t0, $zero, 0                
              addi $t1, $zero, 1
@@ -17,7 +18,8 @@ loop:        slt $t2, $a0, $t1
              addi $t1, $t1, 2
              j loop                                
 finish:      add $v0, $t0, $zero
-'''
+
+
 The corresponding output for this file would be as follows.
 
 10001101000001000000000000000000
